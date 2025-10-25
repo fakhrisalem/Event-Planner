@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.event-planner-container {
+font-family: 'Poppins', sans-serif;
+color: #2c2c2c;
+background-color: #f9fafc;
+min-height: 100vh;
+text-align: center;
+padding: 40px 20px;
+}
+
+header h1 {
+font-size: 2.8rem;
+color: #3a0ca3;
+margin-bottom: 15px;
+font-weight: 600;
+}
+
+.description p {
+font-size: 1.1rem;
+color: #555;
+max-width: 700px;
+margin: 0 auto 25px;
+}
+
+.get-started-button {
+background: linear-gradient(135deg, #3a0ca3, #7209b7);
+color: #fff;
+border: none;
+border-radius: 30px;
+padding: 12px 28px;
+font-size: 1.1rem;
+cursor: pointer;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.get-started-button:hover {
+transform: translateY(-2px);
+box-shadow: 0 5px 15px rgba(58, 12, 163, 0.3);
+}
+
+
+.events_categories {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+margin-top: 60px;
+}
+
+.events_categories ul {
+background: #fff;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+width: 270px;
+padding: 20px 15px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.events_categories ul:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.events_categories ul h2 {
+background: linear-gradient(135deg, #7209b7, #b5179e);
+color: white;
+padding: 8px 0;
+border-radius: 10px;
+font-size: 1.1rem;
+margin-bottom: 15px;
+}
+
+.events_categories ul li {
+list-style: none;
+color: #444;
+font-size: 1rem;
+line-height: 1.8;
+}
+
+
+.features {
+margin-top: 70px;
+}
+
+.features h2 {
+font-size: 2rem;
+margin-bottom: 25px;
+color: #3a0ca3;
+}
+
+.features ul {
+list-style: none;
+padding: 0;
+max-width: 600px;
+margin: 0 auto;
+}
+
+.features ul li {
+background: #fff;
+margin-bottom: 10px;
+padding: 12px;
+border-radius: 10px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+
+.testimonials {
+margin-top: 70px;
+}
+
+.testimonials h2 {
+font-size: 2rem;
+margin-bottom: 30px;
+color: #3a0ca3;
+}
+
+.testimonial {
+background: #fff;
+max-width: 600px;
+margin: 0 auto 20px;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.testimonial p {
+font-style: italic;
+color: #555;
+}
+
+.testimonial .author {
+font-weight: 600;
+margin-top: 10px;
+color: #7209b7;
+}
+
+
+.contact {
+margin-top: 80px;
+}
+
+.contact h2 {
+font-size: 2rem;
+color: #3a0ca3;
+margin-bottom: 25px;
+}
+
+.contact form {
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 12px;
+font-size: 1rem;
+transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+outline: none;
+border-color: #7209b7;
+}
+
+.submit-button {
+background: linear-gradient(135deg, #3a0ca3, #7209b7);
+color: #fff;
+border: none;
+border-radius: 30px;
+padding: 12px;
+font-size: 1.1rem;
+cursor: pointer;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+transform: translateY(-2px);
+box-shadow: 0 5px 15px rgba(114, 9, 183, 0.3);
+}
+
+
+
+footer {
+  margin-top: 60px;
+  padding: 25px 0;
+  font-size: 0.95rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+  background: linear-gradient(135deg, #f9fafc, #f3f0ff);
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.github-link {
+  color: #3a0ca3;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.github-link:hover {
+  color: #7209b7;
+  transform: scale(1.05);
+}
+
+.github-link i {
+  margin-right: 6px;
+}
